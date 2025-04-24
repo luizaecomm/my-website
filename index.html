@@ -3,131 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LU &amp; CU E-Commerce</title>
-  
+  <title>LU &amp; CU E‑Commerce</title>
+
   <!-- Google Font + Tailwind CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  
+
   <style>body{font-family:'Poppins',sans-serif}</style>
 </head>
 <body class="text-gray-900 leading-relaxed">
-  
-  <!-- HERO -->
+
+  <!-- HERO ------------------------------------------------------------------>
   <section class="relative h-screen w-full">
-    <img src="https://static.tildacdn.info/tild6239-3937-4030-b963-373931306138/chuttersnap-BNBA1h-N.jpg" alt="Warehouse racks" class="absolute inset-0 w-full h-full object-cover">
+    <img src="https://static.tildacdn.info/tild6239-3937-4030-b963-373931306138/chuttersnap-BNBA1h-N.jpg" alt="Warehouse" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black/60"></div>
 
     <div class="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center text-white">
-      <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold mb-8 max-w-4xl leading-tight">We Move Products. Fast, Smart, Compliant</h1>
-      <p class="max-w-2xl text-base md:text-lg lg:text-xl">We’re a US-based company working with European and American distributors to bring quality products to the right retail channels. Our focus? Long-term partnerships, consistent volume and full operational transparency.</p>
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-8 max-w-4xl">We Move Products. Fast, Smart, Compliant</h1>
+      <p class="max-w-2xl text-base md:text-lg lg:text-xl">We’re a US‑based company working with European and American distributors to bring quality products to the right retail channels. Our focus? Long‑term partnerships, consistent volume and full operational transparency.</p>
     </div>
   </section>
 
-  <!-- WHO WE ARE -->
+  <!-- WHO WE ARE ------------------------------------------------------------->
   <section class="py-24 lg:min-h-screen lg:flex lg:items-center bg-gray-50">
-    <div class="container mx-auto flex flex-col md:flex-row items-center gap-14 px-8 md:px-20">
-      <!-- text first (left, wider) -->
-      <div class="md:w-3/5">
-        <h2 class="uppercase text-sm tracking-widest font-medium text-gray-700 mb-6">Who We Are</h2>
-        <p class="text-base md:text-lg mb-4">We're a sourcing and distribution company based in the U.S. with a flexible international supply chain.</p>
-        <p class="text-base md:text-lg mb-4">We purchase in bulk, manage packaging and labeling in line with retail requirements (UPC, FNSKU, etc.) and handle all customs and logistics — from EU/US warehouses to U.S. retail centers.</p>
+    <div class="container mx-auto flex flex-col md:flex-row items-center gap-14 px-8 xl:px-24">
+      <div class="md:w-3/5 order-2 md:order-1">
+        <h2 class="uppercase text-sm tracking-widest font-medium text-gray-700 mb-8">Who We Are</h2>
+        <p class="text-base md:text-lg mb-5">We're a sourcing and distribution company based in the U.S. with a flexible international supply chain.</p>
+        <p class="text-base md:text-lg mb-5">We purchase in bulk, manage packaging and labeling in line with retail requirements (UPC, FNSKU, etc.) and handle all customs and logistics — from EU/US warehouses to U.S. retail centers.</p>
         <p class="text-base md:text-lg">We're not here to waste anyone's time. We're looking for efficient suppliers, clear communication and scalable cooperation.</p>
       </div>
-      <!-- logo right, wider -->
-      <div class="md:w-2/5 flex justify-center">
-        <img src="https://static.tildacdn.info/tild3463-3439-4865-b064-373034323163/ChatGPT_Image_16__20.png" alt="LU &amp; CU logo" class="w-96 max-w-full">
+      <div class="md:w-2/5 flex justify-center order-1 md:order-2">
+        <img src="https://static.tildacdn.info/tild3463-3439-4865-b064-373034323163/ChatGPT_Image_16__20.png" alt="LU &amp; CU logo" class="w-[28rem] max-w-full">
       </div>
     </div>
   </section>
 
-  <!-- WHAT WE DO -->
+  <!-- WHAT WE DO ------------------------------------------------------------->
   <section class="py-32 lg:min-h-screen lg:flex lg:items-center bg-[#100e0f] text-white">
-    <div class="container mx-auto px-8 md:px-20 text-center">
-      <h2 class="text-4xl md:text-5xl font-semibold tracking-wide mb-20">What We Do</h2>
-      <div class="grid gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <!-- card template -->
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/research_eye_browser.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">Wholesale purchasing (MOQ-friendly)</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/fefefe--1-0-100/box_packaging.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">Full prep &amp; compliance: labels, bundles, barcodes, retail-ready</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/startup_company_rocket.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">Fast inventory turnover through selected retail channels</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/world_earth_planet_internet.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">International logistics</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/hands_partnership.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">Long-term B2B collaboration</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/diagram_graph_analytics.svg" class="w-16 h-16 mb-6" alt="">
-          <p class="text-base md:text-lg font-medium text-center">Flexibility &amp; growth potential</p>
-        </div>
+    <div class="container mx-auto px-8 xl:px-24 text-center">
+      <h2 class="text-4xl md:text-5xl font-semibold tracking-wide mb-24">What We Do</h2>
+      <div class="grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/research_eye_browser.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">Wholesale purchasing (MOQ‑friendly)</p></div>
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/fefefe--1-0-100/box_packaging.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">Full prep &amp; compliance: labels, bundles, barcodes, retail‑ready</p></div>
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/startup_company_rocket.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">Fast inventory turnover through selected retail channels</p></div>
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/world_earth_planet_internet.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">International logistics</p></div>
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/hands_partnership.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">Long‑term B2B collaboration</p></div>
+        <div class="flex flex-col items-center"><img src="https://static.tildacdn.info/lib/icons/tilda/-/paint/ffffff--1-0-100/diagram_graph_analytics.svg" class="w-16 h-16 mb-6" alt><p class="text-lg font-medium">Flexibility &amp; growth potential</p></div>
       </div>
     </div>
   </section>
 
-  <!-- WHY WORK WITH US -->
+  <!-- WHY WORK WITH US ------------------------------------------------------->
   <section class="py-32 lg:min-h-screen lg:flex lg:items-center">
-    <div class="container mx-auto px-8 md:px-20">
-      <h2 class="text-4xl md:text-5xl font-semibold text-center mb-20">Why Work With Us</h2>
+    <div class="container mx-auto px-8 xl:px-24">
+      <h2 class="text-4xl md:text-5xl font-semibold text-center mb-24">Why Work With Us</h2>
       <div class="space-y-32">
-        <!-- card 1 -->
-        <div class="md:flex md:items-center md:gap-12">
-          <img src="https://static.tildacdn.info/tild3533-6433-4530-b661-653166333063/photo-1549194388-f61.jpg" alt="" class="md:w-5/12 lg:w-2/5 rounded-lg shadow-lg mb-8 md:mb-0 object-cover h-64 md:h-80">
-          <div class="md:w-7/12 lg:w-3/5">
-            <h3 class="text-lg md:text-xl font-semibold mb-4">We Move Fast And Pay On Time</h3>
-            <p class="text-gray-600">We understand the urgency of business in today’s fast-paced world. Our operations are designed for efficiency and responsiveness, ensuring you get what you need without unnecessary delays. Payments are always on schedule, building trust and reliability in every transaction.</p>
+        <!-- card template -->
+        <div class="md:grid md:grid-cols-2 md:gap-14 items-center">
+          <img src="https://static.tildacdn.info/tild3533-6433-4530-b661-653166333063/photo-1549194388-f61.jpg" alt class="w-full rounded-lg shadow-lg object-cover h-72">
+          <div class="pt-10 md:pt-0">
+            <h3 class="text-xl md:text-2xl font-semibold mb-6">We Move Fast And Pay On Time</h3>
+            <p class="text-gray-600 md:text-lg">We understand the urgency of business in today’s fast‑paced world. Our operations are designed for efficiency and responsiveness, ensuring you get what you need without unnecessary delays. Payments are always on schedule, building trust and reliability in every transaction.</p>
           </div>
         </div>
-        <!-- card 2 -->
-        <div class="md:flex md:items-center md:gap-12 md:flex-row-reverse">
-          <img src="https://static.tildacdn.info/tild3065-3439-4834-b638-373566663036/photo-1573552991725-.jpg" alt="" class="md:w-5/12 lg:w-2/5 rounded-lg shadow-lg mb-8 md:mb-0 object-cover h-64 md:h-80">
-          <div class="md:w-7/12 lg:w-3/5">
-            <h3 class="text-lg md:text-xl font-semibold mb-4">We Scale Gradually, Not Chaotically</h3>
-            <p class="text-gray-600">Unlike companies that jump into expansion without a solid foundation, we take a measured, strategic approach. Growth must be sustainable, not rushed, so we carefully plan each step to ensure long-term success without the risk of over-extension.</p>
+        <div class="md:grid md:grid-cols-2 md:gap-14 items-center md:[&>*:first-child]:order-2">
+          <img src="https://static.tildacdn.info/tild3065-3439-4834-b638-373566663036/photo-1573552991725-.jpg" alt class="w-full rounded-lg shadow-lg object-cover h-72">
+          <div class="pt-10 md:pt-0">
+            <h3 class="text-xl md:text-2xl font-semibold mb-6">We Scale Gradually, Not Chaotically</h3>
+            <p class="text-gray-600 md:text-lg">Unlike companies that jump into expansion without a solid foundation, we take a measured, strategic approach. Growth must be sustainable, not rushed, so we carefully plan each step to ensure long‑term success without the risk of over‑extension.</p>
           </div>
         </div>
-        <!-- card 3 -->
-        <div class="md:flex md:items-center md:gap-12">
-          <img src="https://static.tildacdn.info/tild6435-3066-4839-b134-643262363339/photo-1685119166946-.jpg" alt="" class="md:w-5/12 lg:w-2/5 rounded-lg shadow-lg mb-8 md:mb-0 object-cover h-64 md:h-80">
-          <div class="md:w-7/12 lg:w-3/5">
-            <h3 class="text-lg md:text-xl font-semibold mb-4">We Handle Everything Ourselves: No Dropshipping, No Drama</h3>
-            <p class="text-gray-600">From sourcing to compliance, packaging and shipping, we control the entire process. No middlemen, no unreliable third parties — just a streamlined operation built for transparency and results. With us, you get reliability, not uncertainty.</p>
+        <div class="md:grid md:grid-cols-2 md:gap-14 items-center">
+          <img src="https://static.tildacdn.info/tild6435-3066-4839-b134-643262363339/photo-1685119166946-.jpg" alt class="w-full rounded-lg shadow-lg object-cover h-72">
+          <div class="pt-10 md:pt-0">
+            <h3 class="text-xl md:text-2xl font-semibold mb-6">We Handle Everything Ourselves: No Dropshipping, No Drama</h3>
+            <p class="text-gray-600 md:text-lg">From sourcing to compliance, packaging and shipping, we control the entire process. No middlemen, no unreliable third parties — just a streamlined operation built for transparency and results. With us, you get reliability, not uncertainty.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACTS -->
+  <!-- CONTACTS --------------------------------------------------------------->
   <section class="py-32 lg:min-h-screen lg:flex lg:items-center bg-gray-50">
-    <div class="container mx-auto px-8 md:px-20 text-center">
-      <h2 class="text-4xl md:text-5xl font-semibold mb-8">Contacts</h2>
-      <p class="max-w-2xl mx-auto mb-12 text-gray-600">
-      We want to make friends with our clients, so we are happy to answer your questions.
-    </p>
-    <address class="not-italic text-base md:text-lg leading-relaxed">
-      <strong>LU &amp; CU E-COMMERCE LLC</strong><br>
-      2093 Philadelphia Pike, Claymont DE<br>
-      Phone: <a href="tel:+12679967938" class="text-blue-600 hover:underline">+1 267 996-7938</a><br>
-      Email: <a href="mailto:hello@loftpineapple.com" class="text-blue-600 hover:underline">hello@loftpineapple.com</a>
-    </address>
-  </div>
-</section>
+    <div class="container mx-auto px-8 xl:px-24 text-center">
+      <h2 class="text-4xl md:text-5xl font-semibold mb-10">Contacts</h2>
+      <p class="max-w-2xl mx-auto mb-12 text-gray-600 md:text-lg">We want to make friends with our clients, so we are happy to answer your questions.</p>
+      <address class="not-italic text-base md:text-lg leading-relaxed">
+        <strong>LU &amp; CU E‑COMMERCE LLC</strong><br>
+        2093 Philadelphia Pike, Claymont DE<br>
+        Phone: <a href="tel:+12679967938" class="text-blue-600 hover:underline">+1&nbsp;267&nbsp;996‑7938</a><br>
+        Email: <a href="mailto:hello@loftpineapple.com" class="text-blue-600 hover:underline">hello@loftpineapple.com</a>
+      </address>
+    </div>
+  </section>
 
 </body>
 </html>
+
 
 
 
